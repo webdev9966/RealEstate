@@ -1,0 +1,26 @@
+.SearchBar__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.search__textPhrase,
+.searchInput {
+    margin-bottom: 1.4em;
+}
+
+.searchInput{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid lightslategray;
+    padding: 1.5em, 1.5em;
+}
+
+.searchInput > input {
+    border: 0;
+    margin: 1em;
+    font-weight: bolder;
+    outline: none;
+}

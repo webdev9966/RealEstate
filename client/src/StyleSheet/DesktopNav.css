@@ -1,0 +1,27 @@
+.DesktopNav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DesktopNavLeft__container{
+    width: 30%;
+}
+
+.logo {
+    width: 60%;
+}
+
+.DesktopNavRight__container{
+    display: flex;
+    justify-items: center;
+}
+
+.DesktopNavRight__container > h3 {
+    margin-right: 2em;
+    font-weight: 300;
+}
+
+.DesktopNavRight_sell {
+    margin-right: 2em;
+}
