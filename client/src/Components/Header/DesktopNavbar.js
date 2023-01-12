@@ -11,7 +11,9 @@ const DesktopNavbar = () => {
         </div>
 
         <div className='DesktopNavRight__container'>
-            <h3>For Sale</h3>
+            <Link to = '/house-sale' style={{textDecoration: "none", color: "black"}}>
+              <h3 className='link'>For Sale</h3>
+            </Link>
             <h3>To Rent</h3>
             <Link 
               to='/List-your-property'

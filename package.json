@@ -4,12 +4,13 @@
   "description": "This is the backend of realestate agency",
   "main": "server.js",
   "scripts": {
-    "start" : "node server.js",
-    "dev" : "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Careem Boote",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "cloudinary": "^1.33.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

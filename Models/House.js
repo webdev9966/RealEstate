@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const HouseSchema = new mongoose.Schema({
+const HouseSchema = mongoose.Schema({
     house_location: {
         province:{type: "String", required: true},
         city:{type: "String", required:true},
@@ -11,7 +11,8 @@ const HouseSchema = new mongoose.Schema({
         isSaleOrRent:{type: "String", required:true},
         numOfBedRoom:{type: "String", required:true},
         numOfBathRoom:{type: "String", required:true},
-        numOfGarages:{type: "String", required:true},
+        numOfGarages:{type: "Number", required:true}
+        // houseimage:{type:"String", required:true}
     },
 });
 
